@@ -109,7 +109,7 @@ function solicitarCodigoUnico() {
     console.log(' Solicitando código único del disco');
             
     while (true) {
-        let codigoStr = prompt("🔢 Ingresa el código numérico único del disco (1-999):");
+        let codigoStr = prompt("Ingresa el código numérico único del disco (1-999):");
                 
         // Si el usuario cancela
         if (codigoStr === null) {
