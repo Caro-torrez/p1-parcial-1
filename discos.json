@@ -1,8 +1,7 @@
-[
-    {
+[   {
         "nombre": "Al Parecer Todo Ha Sido una Trampa",
-        "artista": "Airbag",
-        "id": 123,
+        "autor": "Airbag",
+        "codigo": 123,
         "portada": "https://i.scdn.co/image/ab67616d0000b273536521e97eaf8309fe37ed34",
         "pistas": [
             {
@@ -73,8 +72,8 @@
     },
     {
         "nombre": "folklore",
-        "artista": "Taylor Swift",
-        "id": 111,
+        "autor": "Taylor Swift",
+        "codigo": 111,
         "portada": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
         "pistas": [
             {
@@ -140,6 +139,123 @@
             {
                 "nombre": "hoax",
                 "duracion": 211
+            }
+        ]
+    },
+    {
+        "nombre": "The Troy Saga",
+        "autor": "Epic: El Musical",
+        "codigo": 143,
+        "portada": "https://i.pinimg.com/736x/18/d9/f2/18d9f296a96a226f37bfa17876913ac4.jpg",
+        "pistas": [
+            {
+                "nombre": "The Horse and the Infant",
+                "duracion": 234
+            },
+            {
+                "nombre": "Just a Man",
+                "duracion": 148
+            },
+            {
+                "nombre": "Full Speed Ahead",
+                "duracion": 179
+            },
+            {
+                "nombre": "Open Arms",
+                "duracion": 198
+            },
+            {
+                "nombre": "Warrior of the Mind",
+                "duracion": 208
+            }
+            
+        ]
+    },
+    {
+        "nombre": "Tropicoqueta",
+        "autor": "Karol G",
+        "codigo": 222,
+        "portada": "https://upload.wikimedia.org/wikipedia/en/d/d1/Tropicoqueta.jpg",
+        "pistas": [
+            {
+                "nombre": "La Reina Presenta (Visializer)",
+                "duracion": 54
+            },
+            {
+                "nombre": "Ivonny Bonita",
+                "duracion": 222
+            },
+            {
+                "nombre": "Papasito",
+                "duracion": 167
+            },
+            {
+                "nombre": "LATINA FOREVA",
+                "duracion": 173
+            },
+            {
+                "nombre": "Dile Luna (con Eddy Lover)",
+                "duracion": 187
+            },
+            {
+                "nombre": "Cuando Me Muera Te Olvido",
+                "duracion": 154
+            },
+            {
+                "nombre": "Coleccionando Heridas",
+                "duracion": 204
+            },
+            {
+                "nombre": "Un Gatito Me Llamó",
+                "duracion": 122
+            },
+            {
+                "nombre": "Amiga Mía",
+                "duracion": 224
+            },
+            {
+                "nombre": "Bandida Entrenada",
+                "duracion": 136
+            },
+            {
+                "nombre": "Ese Hombre Es Malo",
+                "duracion": 220
+            },
+            {
+                "nombre": "A Su Boca La Amo (Interlude)",
+                "duracion": 76
+            },
+            {
+                "nombre": "Vernao Rosa (con Feid)",
+                "duracion": 210
+            },
+            {
+                "nombre": "No Puedo Vivir Sin Él",
+                "duracion": 218
+            },
+            {
+                "nombre": "Tu Perfume",
+                "duracion": 183
+            },
+            {
+                "nombre": "FKN Movie (con Mariah Angeliq)",
+                "duracion": 179
+            },
+            {
+                "nombre": "Se Puso Linda",
+                "duracion": 146
+            },
+            {
+                "nombre": "Viajando Por El Mundo (con Manu Chao)",
+                "duracion": 268
+            },
+            {
+                "nombre": "Si Antes Te Hubiera Conocido",
+                "duracion": 196
+            },
+            {
+                "nombre": "Tropicoqueta",
+                "duracion": 156
             }
         ]
     }
