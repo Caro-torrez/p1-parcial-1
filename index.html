@@ -1,22 +1,36 @@
 <!doctype html>
-<html>
+<html lang="es">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <!-- Reemplazar por los datos que correspondan -->
         <title>Programación I | Parcial 1 | APELLIDO, NOMBRE | APELLIDO, NOMBRE</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
-        <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="styles/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
         <header>
             <!-- Reemplazar por los datos que correspondan -->
-            <h1>Programación I | Parcial 1 | APELLIDO, NOMBRE | APELLDIO, NOMBRE</h1>
+            <h1>Programación I | Parcial 1 | Torrez, Carol </h1>
         </header>
         <main>
             <h2>Mis discos</h2>
+            <div class="botones1">
             <button onclick="cargar();">Cargar nuevo disco</button>
             <button onclick="mostrar();">Mostrar discos</button>
+            <button id="btnCargarJSON">Discos JSON</button>
+            </div>
+            <p>Ordenar discos</p>
+            <div class="botones2">
+            <button id="btnAscendente">Ascendente (Menor a mayor duración)</button>
+            <button id="btnDescendente">Descendente (Mayor a menor duración)</button>
+            </div>
+            <p id="contadorDiscos"></p>
             <div id="discos">
                 <!--
                     Aca podrian mostrar los discos
@@ -28,12 +42,12 @@
             <ul>
                 <li>Profesor Fabrizio Carlassara</li>
                 <li>
-                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
+                    <a href="mailto:fabrizio.carlassara@davinci.edu.ar" target="_blank">fabrizio.carlassara@davinci.edu.ar</a>
                 </li>
                 <li>Programación 1</li>
                 <li>
                     <!-- Reemplazar por el link del repositorio de GitHub -->
-                    <a href="#">URL del repo de GitHub</a>
+                    <a href="https://github.com/Caro-torrez/p1-parcial-1.git" target="_blank">Repo de GitHub</a>
                 </li>
             </ul>
         </footer>
